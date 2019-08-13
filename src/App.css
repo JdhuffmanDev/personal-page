@@ -1,16 +1,9 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,6 +14,26 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Header {
+  position: absolute;
+  top: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ContentCard {
+  background-color: #D56F68;
+  color: white;
+  margin:30px;
+  padding: 20px;
+}
+
+#test {
+  position: absolute;
+  top: 120px;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 @keyframes App-logo-spin {
